@@ -1,0 +1,13 @@
+[package]
+name = "maths"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "maths"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = { git = "https://github.com/rusterlium/rustler" }
